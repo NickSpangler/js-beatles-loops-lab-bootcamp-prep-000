@@ -10,8 +10,10 @@ function johnLennonFacts(array) {
   var loudFacts = [];
   let num = 0
   while (num < array.length) {
-    console.log("hello")
+    loudFacts.push(array[num] + "!!!")
+    num++
   }
+  return loudFacts;
 }
 
 function iLoveTheBeatles(number) {
